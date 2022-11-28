@@ -153,7 +153,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="Firstservletproject" path="/Firstservletproject" reloadable="true" source="org.eclipse.jst.jee.server:Firstservletproject"/><Context docBase="Servlet1" path="/Servlet1" reloadable="true" source="org.eclipse.jst.jee.server:Servlet1"/><Context docBase="Login App1" path="/Login_App1" reloadable="true" source="org.eclipse.jst.jee.server:Login App1"/></Host>
+      <Context docBase="Firstservletproject" path="/Firstservletproject" reloadable="true" source="org.eclipse.jst.jee.server:Firstservletproject"/><Context docBase="Servlet1" path="/Servlet1" reloadable="true" source="org.eclipse.jst.jee.server:Servlet1"/><Context docBase="Login App1" path="/Login_App1" reloadable="true" source="org.eclipse.jst.jee.server:Login App1"/><Context docBase="com.calculatorapplication" path="/com.calculatorapplication" reloadable="true" source="org.eclipse.jst.jee.server:com.calculatorapplication"/><Context docBase=" Registrationapp01" path="/_Registrationapp01" reloadable="true" source="org.eclipse.jst.jee.server: Registrationapp01"/><Context docBase="Calculator1" path="/Calculator1" reloadable="true" source="org.eclipse.jst.jee.server:Calculator1"/><Context docBase="Loginapplicationdb" path="/Loginapplicationdb" reloadable="true" source="org.eclipse.jst.jee.server:Loginapplicationdb"/><Context docBase="Registrationappdb" path="/Registrationappdb" reloadable="true" source="org.eclipse.jst.jee.server:Registrationappdb"/></Host>
     </Engine>
   </Service>
 </Server>
